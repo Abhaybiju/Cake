@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Cakes - Every Slice Tells a Story</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Inter:wght@400;700;800&family=Great+Vibes&family=Maven+Pro:wght@400&family=Questrial&family=Kolker+Brush&family=Libre+Bodoni:wght@700&family=Marck+Script&family=Istok+Web:wght@400;700&family=Poppins:wght@600&family=Irish+Grover&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header-content">
+      <div class="logo-section">
+        <img src="https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-08-19/vyqZuEXUkK.png" alt="My Cakes Logo" class="logo-img">
+        <h1 class="logo-text">My Cakes</h1>
+      </div>
+      
+      <nav class="nav-bar">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About Us</a>
+        <a href="#menu" class="nav-link">Menu</a>
+        <a href="#products" class="nav-link">Products</a>
+      </nav>
+      
+      <div class="search-container">
+        <input type="text" placeholder="Search Products..." class="search-input">
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h2 class="hero-title">Every Slice Tells a Story</h2>
+      <p class="hero-subtitle">We give you a wholesome delightsome cake experience</p>
+    </div>
+    <!-- <div class="hero-decorations">
+      <img src="https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-08-19/sSek0buRU5.png" alt="Cake decoration" class="hero-cake-1">
+      <img src="https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-08-19/9uz7fVzZpD.png" alt="Cake decoration" class="hero-cake-2">
+      <img src="https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-08-19/gUV7cDPak1.png" alt="Cake decoration" class="hero-cake-3">
+    </div> -->
+  </section>
+
+  <!-- Why Choose Us Section -->
+  <section class="why-choose-us">
+    <div class="container">
+      <h2 class="section-title">Why Choose Us</h2>
+      <div class="features-grid">
+        <div class="feature">
+          <h3>Unmatched Quality</h3>
+          <p>We use the finest ingredients for a rich, authentic taste.</p>
+        </div>
+        <div class="feature">
+          <h3>Custom Creations</h3>
+          <p>Cakes designed exactly how you imagined.</p>
+        </div>
+        <div class="feature">
+          <h3>Freshly Baked</h3>
+          <p>Every order is made fresh, never frozen.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sweet Escape Section -->
+  <section class="sweet-escape">
+    <div class="container">
+      <h2 class="escape-title">WHERE EVERY BITE IS A SWEET ESCAPE</h2>
+      <p class="escape-subtitle">Taste the joy, One slice at a time.</p>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section id="products" class="products">
+    <div class="container">
+      <h2 class="products-title">Our Best Sellers</h2>
+      
+      <div class="categories-grid">
+        <!-- Birthday Cakes -->
+        <div class="category-card" onclick="navigateToCategory('birthday-cakes')">
+          <img src="https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-08-19/BhPQf2DexG.png" alt="Birthday Cakes" class="category-image">
+          <div class="category-info">
+            <h3>Birthday Cakes</h3>
+            <p>Starts from 499</p>
+            <button class="view-all-btn">View All</button>
+          </div>
+        </div>
+
+        <!-- Anniversary Cakes -->
+        <div class="category-card" onclick="navigateToCategory('anniversary-cakes')">
+          <img src="https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-08-19/Av44Gw7D91.png" alt="Anniversary Cakes" class="category-image">
+          <div class="category-info">
+            <h3>Anniversary Cakes</h3>
+            <p>Starts from 499</p>
+            <button class="view-all-btn">View All</button>
+          </div>
+        </div>
+
+        <!-- Wedding Cakes -->
+        <div class="category-card" onclick="navigateToCategory('wedding-cakes')">
+          <img src="https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-08-19/k1Z6TuzRPo.png" alt="Wedding Cakes" class="category-image">
+          <div class="category-info">
+            <h3>Wedding Cakes</h3>
+            <p>Starts from 499</p>
+            <button class="view-all-btn">View All</button>
+          </div>
+        </div>
+
+        <!-- Kids Special -->
+        <div class="category-card" onclick="navigateToCategory('kids-special')">
+          <img src="https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-08-19/tnXdQyvJbX.png" alt="Kids Special" class="category-image">
+          <div class="category-info">
+            <h3>Kids Special</h3>
+            <p>Starts from 499</p>
+            <button class="view-all-btn">View All</button>
+          </div>
+        </div>
+
+        <!-- Premium Cakes -->
+        <div class="category-card" onclick="navigateToCategory('premium-cakes')">
+          <img src="https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-08-19/QRcFRkSSEA.png" alt="Premium Cakes" class="category-image">
+          <div class="category-info">
+            <h3>Premium Cakes</h3>
+            <p>Starts from 499</p>
+            <button class="view-all-btn">View All</button>
+          </div>
+        </div>
+
+        <!-- Eggless & Sugarless -->
+        <div class="category-card" onclick="navigateToCategory('eggless-sugarless')">
+          <img src="https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-08-19/LWVFGh2hSy.png" alt="Eggless & Sugarless" class="category-image">
+          <div class="category-info">
+            <h3>Eggless & Sugarless</h3>
+            <p>Starts from 499</p>
+            <button class="view-all-btn">View All</button>
+          </div>
+        </div>
+
+        <!-- French Cakes -->
+        <div class="category-card" onclick="navigateToCategory('french-cakes')">
+          <img src="https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-08-19/1yo0WnpesS.png" alt="French Cakes" class="category-image">
+          <div class="category-info">
+            <h3>French Cakes</h3>
+            <p>Starts from 499</p>
+            <button class="view-all-btn">View All</button>
+          </div>
+        </div>
+
+        <!-- Rolls, Jars Specials -->
+        <div class="category-card" onclick="navigateToCategory('rolls-jars')">
+          <img src="https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-08-19/we1am20KFy.png" alt="Rolls, Jars Specials" class="category-image">
+          <div class="category-info">
+            <h3>Rolls, Jars Specials</h3>
+            <p>Starts from 499</p>
+            <button class="view-all-btn">View All</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about" class="about-us">
+    <div class="container">
+      <h2 class="about-title">ABOUT US</h2>
+      <p class="about-intro">Welcome to My Cakes, where every creation is baked with passion, love, and a sprinkle of happiness.</p>
+      
+      <div class="about-content">
+        <div class="about-text">
+          <h3>Welcome to my cakes</h3>
+          <p>where every bite is a celebration!</p>
+          <p>Founded and lovingly run by Shijil, My Cakes is your neighborhood cake shop dedicated to creating delicious memories one slice at a time. What started as a passion for baking has grown into a warm, welcoming space where creativity meets flavor.</p>
+        </div>
+        <div class="about-image">
+          <img src="https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-08-19/8Ot0rfuNg7.png" alt="About My Cakes">
+        </div>
+      </div>
+
+      <div class="about-more">
+        <h3>At My Cakes</h3>
+        <p>We believe that every cake tells a story — whether it's a birthday, wedding, anniversary, or just because. From classic flavors to custom creations, each of our cakes is handmade with care, using only the finest ingredients to ensure freshness, taste, and a touch of magic in every bite</p>
+        
+        <p>We're not just about cakes — we're about moments, milestones, and making people smile. Whether you're picking up a quick treat or planning the perfect cake for your special event, we're here to make it unforgettable.</p>
+        <p>Thank you for choosing My Cakes. We're honored to be a part of your sweetest moments.</p>
+        
+        <p class="signature">With love,<br><strong>Shijil & the My Cakes Team</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Founder Speaks Section -->
+  <section class="founder-speaks">
+    <div class="container">
+      <h2 class="founder-title">Founder Speaks</h2>
+      <div class="founder-content">
+        <p>Hi, I'm Shijil, the founder of My Cakes.</p>
+        <p>Baking has always been more than just a hobby for me — it's been a passion, a form of expression, and a way to bring joy to others. That passion led me to start My Cakes, a place where every cake is made with love, care, and the belief that even the simplest treat can make someone's day special.</p>
+        <p>My goal with My Cakes is to offer more than just beautifully baked goods — I want to create experiences. Whether it's a birthday, a wedding, a small celebration, or just a sweet craving, I'm honored to be part of those moments.</p>
+        <p>Thank you for visiting My Cakes. Your support means the world to me, and I promise to keep baking happiness into every bite.</p>
+        <p class="founder-signature">With Gratitude<br>Shijil</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <div class="container">
+      <div class="contact-content">
+        <div class="map-section">
+          <img src="https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-08-19/CjmdX9c9mB.png" alt="Location Map" class="map-image">
+          <div class="location-info">
+            <h3>My Cakes, Mannarkad</h3>
+            <p>Mannarkad</p>
+          </div>
+        </div>
+        
+        <div class="contact-form-section">
+          <h2>Get in Touch</h2>
+          <p>Have a sweet question or want to place a custom order? Fill out the form below and we'll get back to you as soon as possible!</p>
+          
+          <form class="contact-form" onsubmit="handleFormSubmit(event)">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Type Name..." required>
+            </div>
+            
+            <div class="form-group">
+              <label for="number">Number</label>
+              <input type="tel" id="number" name="number" placeholder="Type Number..." required>
+            </div>
+            
+            <button type="submit" class="send-btn">Send Now</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <img src="https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-08-19/N3hjt1NPHG.png" alt="My Cakes" class="footer-logo">
+          <h3>My Cakes</h3>
+          <p>Baking fresh, delicious cakes with love and care—perfect for birthdays, weddings, or just because. At My Cakes, every slice is a celebration.</p>
+          <div class="social-links">
+            <a href="#" class="social-link">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        
+        <div class="footer-contact">
+          <h4>CONTACT INFO MY BAKES, MANNARKAD</h4>
+          <div class="contact-item">
+            <svg width="13" height="13" viewBox="0 0 13 13" fill="currentColor">
+              <path d="M6.5 0C2.91 0 0 2.91 0 6.5c0 4.875 6.5 6.5 6.5 6.5s6.5-1.625 6.5-6.5C13 2.91 10.09 0 6.5 0zm0 8.125c-.896 0-1.625-.729-1.625-1.625S5.604 4.875 6.5 4.875s1.625.729 1.625 1.625S7.396 8.125 6.5 8.125z"/>
+            </svg>
+            <span>My Cakes Mannarkad, RK Tower Hospital Junction</span>
+          </div>
+          <div class="contact-item">
+            <svg width="13" height="13" viewBox="0 0 13 13" fill="currentColor">
+              <path d="M12.5 9.25v1.625c0 .896-.729 1.625-1.625 1.625-6.01 0-10.875-4.865-10.875-10.875C0 .729.729 0 1.625 0H3.25c.896 0 1.625.729 1.625 1.625 0 1.083.208 2.125.583 3.083.167.417.042.896-.292 1.209L3.792 7.292c.75 1.458 2.208 2.916 3.666 3.666l1.375-1.375c.313-.334.792-.459 1.209-.292.958.375 2 .583 3.083.583.896 0 1.625.729 1.625 1.625z"/>
+            </svg>
+            <span>+91 234567891</span>
+          </div>
+          <div class="contact-item">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+              <path d="M2.667 2.667h10.667c.733 0 1.333.6 1.333 1.333v8c0 .733-.6 1.333-1.333 1.333H2.667c-.733 0-1.333-.6-1.333-1.333V4c0-.733.6-1.333 1.333-1.333z"/>
+              <path d="m14.667 4-6.667 4.167L1.333 4"/>
+            </svg>
+            <span>mybakesmannarkad@gmail.com</span>
+          </div>
+        </div>
+        
+        <div class="footer-contact">
+          <h4>CONTACT INFO MY BAKES, ALANALLUR</h4>
+          <div class="contact-item">
+            <svg width="13" height="13" viewBox="0 0 13 13" fill="currentColor">
+              <path d="M6.5 0C2.91 0 0 2.91 0 6.5c0 4.875 6.5 6.5 6.5 6.5s6.5-1.625 6.5-6.5C13 2.91 10.09 0 6.5 0zm0 8.125c-.896 0-1.625-.729-1.625-1.625S5.604 4.875 6.5 4.875s1.625.729 1.625 1.625S7.396 8.125 6.5 8.125z"/>
+            </svg>
+            <span>My Cakes Alanallur, RK Tower Hospital Junction</span>
+          </div>
+          <div class="contact-item">
+            <svg width="13" height="13" viewBox="0 0 13 13" fill="currentColor">
+              <path d="M12.5 9.25v1.625c0 .896-.729 1.625-1.625 1.625-6.01 0-10.875-4.865-10.875-10.875C0 .729.729 0 1.625 0H3.25c.896 0 1.625.729 1.625 1.625 0 1.083.208 2.125.583 3.083.167.417.042.896-.292 1.209L3.792 7.292c.75 1.458 2.208 2.916 3.666 3.666l1.375-1.375c.313-.334.792-.459 1.209-.292.958.375 2 .583 3.083.583.896 0 1.625.729 1.625 1.625z"/>
+            </svg>
+            <span>+91 234567891</span>
+          </div>
+          <div class="contact-item">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+              <path d="M2.667 2.667h10.667c.733 0 1.333.6 1.333 1.333v8c0 .733-.6 1.333-1.333 1.333H2.667c-.733 0-1.333-.6-1.333-1.333V4c0-.733.6-1.333 1.333-1.333z"/>
+              <path d="m14.667 4-6.667 4.167L1.333 4"/>
+            </svg>
+            <span>mybakesalanallur@gmail.com</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
